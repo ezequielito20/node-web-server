@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-web-server",
+  "version": "0.0.1",
+  "description": "web server practica de nodeJS",
+  "main": "src/app.js",
+  
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Ezequielito",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.5.0",
+    "express": "^4.19.2"
+  }
+}
